@@ -72,6 +72,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: calc((100% / 12)*10);
 }
 
 .product {
@@ -135,7 +136,7 @@ img {
 
 
 @media (max-width: 375px) {
-body {
+.body-product-list {
     padding: 0px 12px;
 }
 
@@ -148,10 +149,11 @@ body {
 .product .product-card {
     width: 100%;
 
-    margin-left:12px;
+    margin-left:0px;
 }
 .product-card img {
     padding-bottom: 8px;
+    margin: 0px
 }
 
 .product .label-product-name {
@@ -161,18 +163,26 @@ body {
 }
 
 
+.main {
+    margin-left: -6px;
+    margin-right: -6px;
+}
 
 
 .menu-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -12px;
+    margin-left: 0px;
+    width: 100%;
 }
 
 .product {
     display: flex;
     justify-content: center;
-    width: calc((100% / 12)*6);
+    width: 50%;
+
+    padding: 0px 6px 0px 6px;
+
 }
 }  

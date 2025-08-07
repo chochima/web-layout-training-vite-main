@@ -7,36 +7,14 @@ img {
     vertical-align: middle;
 }
 
+.Columns-5 {
+    width: calc((100% / 12)*5);
 
-
-.main-img-sm {
-    margin: 0px -12px; 
 }
-.layout-area {
-    display: none;
-}
-
-.logIn-area img {
-    display: none;
+.Columns-7 {
+    width: calc((100% / 12)*7);
 }
 
-
-.logIn-area h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 700;
-    padding: 0px 0px 32px 0px;
-}
-
-
-
-
-@media (min-width: 1296px) {
-body {
-    background-color: aqua;
 
 .main-logIn {
     display: flex;
@@ -67,21 +45,19 @@ body {
 }
 
 .logIn-area {
-    position: relative;
+
+    margin: 0px auto;
 }
 
 .logIn-layout {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    padding: 120px 80px;
+    background-color: $my-neutral-100;
+    border-radius: 10px;
 }
-
-
 
 .leable-logIn {
     display: flex;
-    max-width: 586px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 32px;
 }
@@ -109,7 +85,7 @@ body {
 
 .btn-media-logIn {
     display: flex;
-    max-width: 586px;
+    width: 100%;
     margin: 0px auto 4px auto;
     border: 1px solid $my-neutral-300;
     background-color: $white;
@@ -120,8 +96,8 @@ body {
     display: block;
 }
 
-.btn-media-logIn :hover {
-    background-color: pink;
+.btn-media-logIn a:hover {
+    opacity: 0.4;
 }
 
 .btn-media-logIn img {
@@ -129,10 +105,57 @@ body {
     margin: 0px 12px;
 
 }
-.btn-media-logIn p {
+.btn-media-logIn a {
+    text-decoration: none;
+    width: 100%;
     display: block;
     padding: 19px 0px;
     font-weight: 400;
+    color: $my-neutral-900;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+body {
+    padding: 0px 12px;
+
+
+.main-img-sm {
+    display: block;
+}
+.layout-area {
+    display: none;
+}
+
+.Columns-5 {
+    width: calc((100% / 12)*0);
+}
+.Columns-7 {
+    width: calc((100% / 12)*12);
+}
+
+.logIn-layout {
+    padding: 0px;
+    background-color: $white;
+    border-radius: 0px;
+}
+
+.main-logIn {
+    padding: 32px 0px;
+}
+
+.logIn-area h1{
+    padding: 0px 0px 32px 0px;
+}
+
+.leable-logIn {
+    padding-bottom: 24px;
 }
 
 
@@ -143,7 +166,5 @@ body {
 
 
 
-
 }
-
 }

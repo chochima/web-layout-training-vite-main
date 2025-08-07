@@ -197,6 +197,11 @@ img {
     background-color: $my-neutral-900;
 }
 
+.cart-btn a{
+    text-decoration: none;
+    padding-left: 8px;
+    color: $my-neutral-900;
+}
 .cart-btn p{
     padding-left: 8px;
 }
@@ -236,7 +241,7 @@ img {
     margin-left: -24px;
 }
 
-.product {
+.product-card{
     display: flex;
     justify-content: center;
     width: calc((100% / 12)*3);
@@ -260,7 +265,7 @@ img {
 
 
 @media (max-width: 375px) {
-body {
+.body-product-details {
     padding: 0px 12px;
 
 
