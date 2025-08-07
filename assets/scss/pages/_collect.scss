@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+.icon-circle {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    width: 40px;
+    height: 40px;
+    background-color: $my-primary-300;
+    border-radius: 50%;
+   
+    
+}
+
+.bi-check-lg {
+    color: $my-primary-500;
+    
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 64px;
+}
+
+.title h1 {
+    display: flex;
+
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-left: 16px;
+
+}
+
+
+.bar-time {
+    max-width: 636px;
+    margin: 32px auto 32px auto;
+
+    color: $my-primary-500;
+    background-color: $my-primary-100;
+}
+
+.bar-time-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0px 16px 16px;
+}
+
+.bar-time-text p {
+    display: flex;
+    padding-left: 12px;
+}
+
+.bi-truck {
+    display: flex;
+} 
+
+
+
+.main-collect {
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+.card-collect {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 32px;
+    border-bottom: 1px solid $my-neutral-300;
+    margin-bottom: 32px;    
+}
+
+.card-collect img {
+    max-width: 120px;
+}
+
+.text-collect {
+    padding-left: 16px;
+ 
+}
+
+.text-collect h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 8px;
+}
+.text-collect h3 {
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.option-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option-text p{
+    padding: 0px 12px 8px 0px;
+}
+
+.card-price {
+    position: absolute; 
+    bottom: 37px; right: 0px;
+}
+
+
+.btn-collect {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -24px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+body {
+    padding: 0px 12px;
+}
+
+.title {
+    padding-top: 24px;
+}
+
+.bar-time {
+    max-width: 636px;
+    margin: 24px auto;
+
+    color: $my-primary-500;
+    background-color: $my-primary-100;
+}
+
+.bar-time-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0px 16px 16px;
+}
+
+.bar-time-text p {
+    display: flex;
+    padding-left: 12px;
+}
+
+.bi-truck {
+    display: flex;
+} 
+
+
+
+.main-collect {
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+.card-collect {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 32px;
+    border-bottom: 1px solid $my-neutral-300;
+    margin-bottom: 24px;    
+}
+.text-collect h2 {
+    font-size: 16px;
+}
+
+.option-text p{
+    font-size: 14px;
+}
+
+.card-price {
+    position: absolute; 
+    top: 85px; left: 136px;
+}
+
+
+.btn-collect {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -24px;
+}
+
+
+
+
+
+
+
+
+
+
+}  

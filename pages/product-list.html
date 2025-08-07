@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  </head>
+  <body>
+    
+    <%- include('./layout/header'); -%>
+
+        <nav class="index-nav">
+        <ul>
+            <li class="text-secondary">首頁</li>
+            <li class="text-muted">/</li>
+            <li class="text-secondary">女鞋</li>
+            <li class="text-muted">/</li>
+            <li class="text-primay">所有商品</li>
+        </ul>
+        <h1>女鞋</h1>
+    </nav>
+
+    <main class="main">
+        <aside class="product-list">
+            <ol>
+                <li><a class="color-primay" href="#">所有商品</a></li>
+                <li><a href="#">慢跑鞋</a></li>
+                <li><a href="#">滑板鞋</a></li>
+                <li><a href="#">厚底鞋</a></li>
+                <li><a href="#">限定 / 聯名企劃</a></li>
+            </ol>
+        </aside>
+
+        <section class="menu-area">
+
+
+
+            <!--鞋子1號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">PLATFORM 404</p>
+                    <p>NT$2,600</p>
+                    </a>
+                </div>
+            </div>
+            <!--鞋子2號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">PLATFORM 404</p>
+                    <p>NT$2,600</p>
+                    </a>  
+                </div>
+                
+            </div>
+            <!--鞋子3號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">VM001</p>
+                    <p>NT$2,600</p>
+                    </a>
+                </div>
+            </div>
+
+            <!--鞋子4號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">Melty Kiss</p>
+                    <p>NT$4,000</p>
+                    </a>
+                </div>
+            </div>
+            <!--鞋子5號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">BOOMBLOK</p>
+                    <p>NT$3,200</p>
+                    </a>
+                </div>
+            </div>
+            <!--鞋子6號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">BOOMBLOK</p>
+                    <p>NT$3,200</p>
+                    </a>
+                </div>
+            </div>
+
+            <!--鞋子7號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">R:UNER</p>
+                    <p>NT$4,000</p>
+                    </a>
+                </div>
+            </div>
+            <!--鞋子8號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">Sugar Snap</p>
+                    <p>NT$4,000</p>
+                    </a>
+                </div>
+            </div>
+            <!--鞋子9號-->
+            <div class="product">
+                <div class="product-card">
+                    <a href="product.html">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true" alt="鞋子商品圖">
+                    <p class="label-product-name">Neofoam</p>
+                    <p>NT$4,000</p>
+                    </a>
+                </div>
+            </div>
+        
+        </section>
+    </main>
+
+    <div class="pagination">
+        <ul class="pagination-default">
+            <li><i class="bi bi-chevron-left"></i></li>
+            <li class="pagination-selected">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>…</li>
+            <li>10</li>
+            <li><i class="bi bi-chevron-right"></i></li>
+         </ul>
+    </div>
+
+
+
+
+
+    <%- include('./layout/footer'); -%>
+
+
+
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

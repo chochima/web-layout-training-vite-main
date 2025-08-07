@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+.main-img-sm {
+    margin: 0px -12px; 
+}
+.layout-area {
+    display: none;
+}
+
+.logIn-area img {
+    display: none;
+}
+
+
+.logIn-area h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 0px 0px 32px 0px;
+}
+
+
+
+
+@media (min-width: 1296px) {
+body {
+    background-color: aqua;
+
+.main-logIn {
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 64px 0px;
+}
+
+.main-img-sm {
+    display: none;
+}
+.layout-area {
+    display: block;
+    padding-right: 12px;
+}
+
+.logIn-area img {
+    display: block;
+}
+
+
+.logIn-area h1{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+.logIn-area {
+    position: relative;
+}
+
+.logIn-layout {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.leable-logIn {
+    display: flex;
+    max-width: 586px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.leable-logIn-default{
+    width: 50%;
+    color: $my-neutral-900;
+    border-bottom: 2px solid $my-neutral-900;
+}
+.leable-logIn-disabled{
+    width: 50%;
+    color: $my-neutral-600;
+    border-bottom: 2px solid $my-neutral-300;
+}
+
+.leable-logIn h2 {
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    padding: 12px 0px;
+    
+}
+
+
+.btn-media-logIn {
+    display: flex;
+    max-width: 586px;
+    margin: 0px auto 4px auto;
+    border: 1px solid $my-neutral-300;
+    background-color: $white;
+    border-radius: 4px;
+}
+
+.btn-media-logIn-area {
+    display: block;
+}
+
+.btn-media-logIn :hover {
+    background-color: pink;
+}
+
+.btn-media-logIn img {
+    max-width: 40px;
+    margin: 0px 12px;
+
+}
+.btn-media-logIn p {
+    display: block;
+    padding: 19px 0px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+}
